@@ -1,0 +1,10 @@
+import{Footer,Header}from"../site-components";
+
+export default function Info(){return <div className="site-page"><Header active="info"/><main className="info-onepage meaning-page">
+  <section className="meaning-copy"><h1>영화제 소개</h1><div className="meaning-list">
+    <article><div className="meaning-symbol festival-identity-symbol"><img src="/festival-identity-logo-white.png" alt="대진대학교 졸업영화제 로고"/></div><div><small>01 · FESTIVAL IDENTITY</small><h2>페스티벌 아이덴티티</h2><div className="copy-stack"><p>1999년 연극영화과 영화전공에서 시작해 오늘날 영화영상학과로 이어져 온 우리는, 어느덧 제25회 졸업영화제를 맞이하게 됐습니다. 저마다의 시선과 고민을 한 편의 영화에 담아내며, 올해도 새로운 장면을 써 내려갔습니다.</p><p>2026년 대진대학교 영화영상학과 졸업영화제는 ‘아직 끝나지 않은 우리’라는 슬로건 아래, 끝이 또 다른 시작이 될 수 있다는 메시지를 전합니다. 서로 다른 이야기와 감정이 담긴 작품들은 스크린을 통해 관객과 만나고, 우리가 함께한 시간은 새로운 가능성으로 이어집니다. 한 편의 영화가 끝나고 엔딩 크레디트가 올라가더라도 그 안에 담긴 열정과 이야기는 계속됩니다.</p></div></div></article>
+    <article><div className="meaning-symbol department-symbol"><img src="/film-department-logo.png" alt="대진대학교 영화영상학과 로고"/></div><div><small>02 · DEPARTMENT LOGO</small><h2>학과 로고 의미</h2><div className="copy-stack"><p>기존 연극영화학부 로고를 계승한 디자인에서 시작되었습니다.</p><p>끝없이 비상하는 학부생들의 잠재력을 ‘날개’로, 영화와 영상에 대한 열망을 ‘조리개’로, 대진대학교 해원상생의 원리에 입각한 성실·경건·신념을 ‘소’로 표현했습니다.</p></div></div></article>
+    <article><div className="meaning-symbol poster-symbol"><img src="/official-poster.png" alt="공식 포스터 축소 이미지"/></div><div><small>03 · OFFICIAL POSTER</small><h2>포스터 의미</h2><div className="copy-stack"><p>2026년 제25회 대진대학교 영화영상학과 졸업영화제의 포스터는 ‘아직 끝나지 않은 우리’라는 메시지에서 출발합니다.</p><p>포스터 속 각자의 자리에서 카메라를 들고, 빛을 비추고, 소리를 담으며 영화를 완성해 나가는 스태프들은 곧 우리 자신을 상징합니다. 서로 다른 역할과 시선으로 하나의 작품을 만들어 온 우리는 졸업이라는 마지막 장면 앞에서도 멈추지 않고, 각자의 꿈과 미래를 향해 나아갑니다. 한 편의 영화는 끝나더라도, 함께 만들어 온 우리의 이야기는 아직 끝나지 않았다는 의미를 담고 있습니다.</p></div></div></article>
+    <article><div className="meaning-symbol trailer-symbol">▶</div><div><small>04 · OFFICIAL TRAILER</small><h2>트레일러 소개</h2><p>열두 작품의 서로 다른 순간과 제작 현장의 호흡을 하나의 리듬으로 연결합니다. 영화제가 시작되기 전, 앞으로 펼쳐질 이야기의 분위기를 먼저 만나는 영상입니다.</p><button>트레일러 보기 ↗</button></div></article>
+  </div></section>
+</main><Footer/></div>}

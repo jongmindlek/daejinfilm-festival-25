@@ -1,0 +1,4 @@
+const links=[["home","/","영화제"],["info","/info","포스터·트레일러"],["schedule","/schedule","상영시간표"],["reservation","/reservation","예매하기"],["tickets","/tickets","예매 확인증"]] as const;
+export function Header({active}:{active:string}){return <header className="header"><a className="film-logo" href="/"><img src="/film-department-logo.png" alt="대진대학교 영화영상학과"/></a><nav>{links.map(([k,h,l])=><a className={active===k?"active":""} href={h} key={k}>{l}</a>)}</nav><a className="ticket" href="/reservation">TICKET</a></header>}
+export function Footer(){return <footer><img className="footer-partners" src="/footer-partners-v3.png" alt="대진대학교, 한국영상자료원, 영화영상학과 및 협력 기관 로고"/></footer>}
+export function PageTitle({eyebrow,title,children}:{eyebrow:string,title:string,children?:React.ReactNode}){return <div className="page-title"><p>{eyebrow}</p><h1>{title}</h1>{children}</div>}
